@@ -1,0 +1,50 @@
+:root {
+
+}
+
+* {
+
+}
+
+html {
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 1px solid black;
+}
+
+main {
+    border: 1px solid black;
+}
+
+.site_name {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+}
+
+.logo {
+    width: 75px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: right;
+    margin-right: 30px;
+    overflow: auto;
+}
+
+.navbar li {
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 21px;
+}
+
+.login {
+    position: relative;
+    float: right;
+    top: -140px;
+    padding-right: 10px;
+    font-size: large;
+}
